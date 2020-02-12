@@ -1,0 +1,24 @@
+// import all helpers scss
+@import "1-helpers/_variables";
+@import "1-helpers/_mixins";
+
+// import all base scss
+@import "2-base/_global";
+@import "2-base/_reset";
+@import "2-base/_shame";
+@import "2-base/_typography";
+
+// import all components scss
+@import "4-components/_graph";
+@import "4-components/_card";
+@import "4-components/_footer";
+@import "4-components/_navigation";
+
+// import all layout scss
+// @import "3-layout/_footer.scss";
+
+// import all page scss
+@import "4-pages/_main";
+
+// import all vendor scss
+// @import "0-plugins/file.scss";
